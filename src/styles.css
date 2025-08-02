@@ -7,6 +7,8 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* Home Page Styling */
+
 #home-header {
   background-color: #ebedeb;
   border-radius: 1.5em;
@@ -76,3 +78,6 @@ h1 {
   object-fit: cover;
   border-radius: 1em;
 }
+
+/* Menu Styling */
+

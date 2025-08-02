@@ -21,11 +21,7 @@ const reviews = [
             fantastic flavor explosion.`,
 ];
 
-export function serveContent(){
-    window.addEventListener('DOMContentLoaded', addContent);
-}
-
-function addContent(){
+export function loadHome(){
     const content = document.querySelector('#content');
     const header = document.createElement('h1');
     const mainLayout = document.createElement('div');
@@ -45,8 +41,6 @@ function addContent(){
         contentReviews.appendChild(para);
     }
 
-    // Use the imported variable directly here.
-    // Webpack will handle the correct output path for you.
     img.src = burgerImage; 
     img.alt = 'Image of American Classic Cheeseburger';
     imgContainer.appendChild(img);
