@@ -1,4 +1,8 @@
 import './styles.css';
-// import img from "./burger.webp";
+import { serveContent } from './home';
+import burgerImage from "../burger.webp"; // Correct import path
 
 console.log('Hello, world');
+serveContent();
+
+export { burgerImage };
